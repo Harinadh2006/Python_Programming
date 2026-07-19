@@ -1,0 +1,7 @@
+# Python program to find the biggest of two numbers using bitwise operators
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+max = a ^ ((a ^ b) & -(a < b))
+
+print("Biggest number is:", max)
