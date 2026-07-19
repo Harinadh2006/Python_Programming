@@ -1,0 +1,6 @@
+# Addition of two numbers
+a=int(input())
+b=int(input())
+print("Addition of ",a,"and ",b,"is:"a+b)
+
+
