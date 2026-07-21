@@ -1,0 +1,30 @@
+import math
+n=int(input("Enter a number"))
+temp=n
+sum=0
+cnt=0
+while n>0:
+    cnt=cnt+1
+n=temp
+
+while temp>0:
+    r=temp%10
+    sum=sum+math.pow(r,cnt)
+    temp=temp//10
+if sum==n:
+    print("ArmStrong")
+else:
+    print("Not a Armstrong")
+
+
+
+
+
+
+
+
+
+
+
+
+
